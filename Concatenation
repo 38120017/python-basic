@@ -1,0 +1,2 @@
+X = " awesome "
+print (" python is "+ X)
