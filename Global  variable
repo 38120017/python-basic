@@ -1,0 +1,5 @@
+ 
+X = " awesome "
+def func():
+  print (" python is "+ X)
+func()
