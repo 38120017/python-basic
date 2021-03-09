@@ -1,0 +1,5 @@
+def func():
+  global X
+  X = " awesome "
+func()
+print (" python is "+ X)
