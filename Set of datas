@@ -1,0 +1,10 @@
+list =[" apple "," banana "," cherry "]
+tuple =(" apple "," banana "," cherry ")
+set ={" apple "," banana "," cherry "}
+dict={"name":" Bala ","age":" 20 "}
+frozenset={" apple "," banana "," cherry "}
+print(list)
+print (tuple)
+print (set)
+print(dict)
+print(frozenset)
