@@ -1,0 +1,8 @@
+X=Y=Z= "apple"
+print(X)
+print(Y)
+print(Z)
+X,Y,Z= "orange","apple","Banana"
+print (X)
+print (Y)
+print (Z)
