@@ -1,0 +1,7 @@
+str =input ("Enter the string:")
+str = str.casefold()
+if str == str[::-1] :
+  print ("polindrom")
+else:
+  print (" not polindrom")
+print (str)
