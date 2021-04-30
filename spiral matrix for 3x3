@@ -1,0 +1,15 @@
+n =[[1,2,3],[4,5,6],[7,8,9]]
+d = []
+[a,b,c] = n
+for i in n:
+   for j in i:
+      if j<len(n[0])+1:
+        d.append(j)
+print (d)
+d.append(b[-1])
+print (d)
+for i in c[::-1]:
+  d.append(i)
+for i in b[:-1]:
+   d.append(i)
+print (d)
