@@ -1,0 +1,31 @@
+def get(n):
+   b=[]
+   for i in range (1,n+1):
+      a =[]
+      for j in range (1,i+1):
+        ele =1
+        if j==1 or j==i:
+           ele = 1
+           a.append(ele)
+           #print (a,end="")
+        else:
+           currow = i-1
+           prerow = currow-1
+           curpos = j-1
+           ele = b[prerow][curpos-1]+b[prerow][curpos]
+           #print (ele)
+           a.append(ele)
+      b.append(a)
+   return b
+ 
+ 
+def pascal(n):
+   b = get(n)
+   spcn = n-1
+   for i in b:
+      print ("   "*spcn,end="")
+      for j in i:
+          print ("{0:^6d}". format (j),end="")
+      print ()
+      spcn-=1
+pascal(5)
