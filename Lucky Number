@@ -1,0 +1,18 @@
+n = [[2,5,6],[8,3,1],[7,5,9]]
+m = []
+z = []
+s = []
+[a,b,c] = n
+for i in range (len(n)):
+     x = min(n[i])
+     m.append(x)
+     z.clear()
+     z.append(a[i])
+     z.append(b[i])
+     z.append(c[i])
+     y = max(z)
+     s.append(y)
+print (m)     
+print (s)
+luckynum = list(set(m)&set(s))
+print (luckynum)
