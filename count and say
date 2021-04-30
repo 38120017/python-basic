@@ -1,0 +1,17 @@
+input = '111211'
+previous_value = 0
+output = ''
+count = 0
+list_conversion = list(input)
+for i in range(len(list_conversion)):
+  if i == 0:
+    previous_value= list_conversion[i]
+  elif previous_value == list_conversion[i]:
+    count += 1
+  elif previous_value != list_conversion[i]:
+    count += 1
+    output = output + str(count) + previous_value
+    previous_value = list_conversion[i]
+    count = 0
+output= output + str(count+1) + previous_value
+print('output', output)
