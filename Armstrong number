@@ -1,0 +1,11 @@
+n = input ("Enter:")
+c = int(n)
+arm =0
+a = len(n)
+for i in n:
+    b = int(i)
+    arm = arm +b**a
+if c==arm:
+   print ("Armstrong")
+else:
+   print ("Not Armstrong")
