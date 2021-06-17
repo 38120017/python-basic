@@ -1,0 +1,13 @@
+n = int(input())
+ 
+for i in range(n):
+   a = ""
+   b = ""
+   s = input ()
+   c =list(s)
+   for j in range(len(s)):
+       if j%2==0:
+          a +=s[j]
+       else:
+          b +=s[j]
+   print (a+" "+b)
