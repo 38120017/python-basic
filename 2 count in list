@@ -1,0 +1,7 @@
+s = list(map(str,input (). split ()))
+a = set(s)
+for i in a:
+      b = i
+      c = s.count(b)
+      if c == 2:
+        print (b)
