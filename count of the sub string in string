@@ -1,0 +1,10 @@
+s = [ 'ab','abc','ab']
+q = [ 'ab','bc','abc']
+b = []
+for i in range(len(q)):
+    if q[i] in s:
+      a =s.count(q[i])
+      b.append(a)
+    else:
+      b.append(0)
+print (b)
