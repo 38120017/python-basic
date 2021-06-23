@@ -1,0 +1,5 @@
+ 
+a = list(map(int,input().split()))
+n = int(input())
+del a[n]
+print (a)
